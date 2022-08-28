@@ -13,144 +13,140 @@ additional_links:
     icon: fab fa-telegram
     url: 'https://telegram.me/dddyom'
 content:
-  - content:
-      - description: |
+  - title: SKILLS
+    layout: list
+    content:
+
+      - layout: left
+        title: Web-development
+        description: |
           - Python, OOP, REST API
           - Django, Django Rest Framework
           - PostgreSQL, MySQL
           - HTML, CSS, Markdown
           - Selenium, BeautifulSoup
           - requests, logging, loguru
-        layout: left
-        title: Web-development
-      - description: |
+
+      - layout: left
+        title: Linux
+        description: |
           - bash, zsh, systemd
           - Docker, Nginx
           - Git, pip, conda, jupyter
           - Vim, tmux, i3wm (arch linux)
-        layout: left
-        title: Linux
-      - description: |
+
+      - layout: left
+        title: Machine Learning
+        description: |
           - yolov5, detectron
           - tensorflow
-        layout: left
-        title: Machine Learning
-      - description: |
-          - numpy, pandas, matplotlib
-        layout: left
+
+      - layout: left
         title: Data processing
+        description: |
+          - numpy, pandas, matplotlib
 
+  - title: Projects
+    layout: list
+    content:
 
-  - layout: list
-    title: SKILLS
-    additional_links:
-      - icon: fab fa-github
-        title: github
-        url: github.com/dddyom/TargetDetection
-    description: |
+      - layout: left
+        title: TargetDetection
+        link: github.com/dddyom/TargetDetection
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: github.com/dddyom/TargetDetection
+        description: |
           Поиск целей на буфере радиолокатора нейросетью
 
-          # 2
-  - layout: left
-    link: github.com/dddyom/TargetDetection
-    title: TargetDetection
-      - additional_links:
-        - icon: fab fa-github
-          title: github
-          url: github.com/dddyom/drf-notes
-    description: |
+
+      - layout: left
+        title: drf-notes
+        link: github.com/dddyom/drf-notes
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: github.com/dddyom/drf-notes
+        description: |
           CRUD API для приложения с заметками
 
-          # 3
-  - layout: left
-    link: github.com/dddyom/drf-notes
-    title: drf-notes
-      - additional_links:
-          - icon: fab fa-github
-            title: github
+      - layout: left
+        title: IPC-detector-app
+        link: github.com/dddyom/ipc_detector_app
+        additional_links:
+          - title: github
+            icon: fab fa-github
             url: github.com/dddyom/ipc_detector_app
-    description: >
-      IPC-модуль на сокетах с docker на сервере для поиска образов
-      радиосигнала нейросетью
+        description: |
+          IPC-модуль на сокетах с docker на сервере для поиска образов радиосигнала нейросетью
+
+      - layout: left
+        title: Online store
+        link: github.com/dddyom/online_store
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: github.com/dddyom/online_store
+        description: |
+          Веб-приложение для магазина
+
+      - layout: left
+        title: Parser
+        link: github.com/dddyom/parser
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: github.com/dddyom/parser
+        description: |
+          Парсер сайта о картинах, собирающий данные для обучения нейросети
+
+      - layout: left
+        title: Dataset maker
+        link: github.com/dddyom/dataset_maker
+        additional_links:
+          - title: github
+            icon: fab fa-github
+            url: github.com/dddyom/dataset_maker
+        description: |
+          Обработчик буферов радиолокатора для сбора данных, обучающих нейросеть
 
 
-          # 4
-        #layout: left
-        #link: github.com/dddyom/ipc_detector_app
-        #title: IPC-Detector-app
-      #- additional_links:
-          #- icon: fab fa-github
-            #title: github
-            #url: github.com/dddyom/online_store
-        #description: |
-          #Веб-приложение для магазина
 
-          ## 5
-        #layout: left
-        #link: github.com/dddyom/ipc_detector_app
-        #title: online-store
-      #- additional_links:
-          #- icon: fab fa-github
-            #title: github
-            #url: github.com/dddyom/parser
-        #description: |
-          #Парсер сайта о картинах, собирающий данные для обучения нейросети
-
-          ## 6
-        #layout: left
-        #link: github.com/dddyom/parser
-        #title: parser
-      #- additional_links:
-          #- icon: fab fa-github
-            #title: github
-            #url: github.com/dddyom/dataset_maker
-        #description: |
-          #Обработчик буферов радиолокатора для сбора данных, обучающих нейросеть
-        #layout: left
-        #link: github.com/dddyom/dataset_maker
-        #title: Dataset-maker
+  - title: Experience
     layout: list
-    title: Projects
-  - content:
-      - caption: Nov 20 - Aug 22
-        description: >
-          Занимался сбором данных, обучением на них нейросетей поиску
-          пользовательнских объектов, и их внедрением в продукт предприятия.
-        layout: left
-        sub_title: Python Developer
+    content:
+      - layout: left
         title: 'ТОО "СКТБ "Гранит", Almaty'
+        sub_title: Python Developer
+        caption: Nov 20 - Aug 22
+        description: |
+          Занимался сбором данных, обучением на них нейросетей поиску пользовательских объектов, и их внедрением в продукт предприятия.
+
+  - title: Education
     layout: list
-    title: Experience
-  - content:
-      - caption: 2018 - 2022
-        description: >
-          В качестве ключевых работ, написал и успешно защитил ряд проектов в
-          разных областях: от реализаций базовых академических алгоритмов, до
-          проектов в области веб-разработки и в машинном обучении.
-        layout: left
-        sub_title: Автоматизированные системы обработки информации и управления
+    content:
+      - layout: left
         title: 'Moscow Polytech, Moscow, Russia'
-    layout: list
-    title: Education
-  - content: >
-      - Кроме указанных выше технологий работал и базово знаком с
-      <mark>Golang</mark>
-        , <mark>C++</mark>
-        , <mark>JavaScript</mark>
-        , <mark>React</mark>
-        , <mark>Figma</mark>
-        , <mark>LaTex</mark>.
-      - Могу водить машину, есть права категории <mark>БЭ</mark>.
+        caption: 2018 - 2022
+        sub_title: Автоматизированные системы обработки информации и управления
+        description: |
+          В качестве ключевых работ, написал и успешно защитил ряд проектов в разных областях: от реализаций базовых академических алгоритмов, до проектов в области веб-разработки и в машинном обучении.
 
-      - Играю на <mark>гитаре</mark> и в <mark>шахматы</mark>.
-
-      - Добрый, спокойный и <mark>ответственный</mark>:).
+  - title: About
     layout: text
-    title: About
+    content: |
+      - Кроме указанных выше технологий работал и базово знаком с <mark>Golang</mark>, <mark>C++</mark>, <mark>JavaScript</mark>, <mark>React</mark>, <mark>Figma</mark>, <mark>LaTex</mark>.
+      - Могу водить машину, есть права категории <mark>БЭ</mark>.
+      - Играю на <mark>гитаре</mark> и в <mark>шахматы</mark>.
+      - Добрый, спокойный и <mark>ответственный</mark>:).
 footer_show_references: false
+
 plugins:
   - jekyll-seo-tag
+
 remote_theme: sproogen/resume-theme
+
 sass:
   sass_dir: _sass
   style: compressed
