@@ -41,10 +41,10 @@ content:
         title: Data processing
 
 
-  - title: SKILLS
-    layout: list
-    content:
-      - additional_links:
+      - title: SKILLS
+        layout: list
+        content:
+        additional_links:
           - icon: fab fa-github
             title: github
             url: github.com/dddyom/TargetDetection
