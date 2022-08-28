@@ -39,9 +39,11 @@ content:
           - numpy, pandas, matplotlib
         layout: left
         title: Data processing
+
+
+  - title: SKILLS
     layout: list
-    title: SKILLS
-  - content:
+    content:
       - additional_links:
           - icon: fab fa-github
             title: github
