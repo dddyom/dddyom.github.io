@@ -11,6 +11,13 @@ additional_links:
   - title: telegram
     icon: fab fa-telegram
     url: 'https://telegram.me/dddyom'
+
+about_title: About
+about_content: |
+  Сталкивался с задачами из самых разных областей. Люблю находить аккуратные и чистые решения.
+  В работе использую Linux и Open source.
+  Нравится процесс проектирования системы и нахождение возможных улучшений в её архитектуре.
+
 content:
   - title: SKILLS
     layout: list
@@ -132,7 +139,7 @@ content:
         description: |
           В качестве ключевых работ, написал и успешно защитил ряд проектов в разных областях: от реализаций базовых академических алгоритмов, до проектов в области веб-разработки и в машинном обучении.
 
-  - title: About
+  - title: About more
     layout: text
     content: |
       - Кроме указанных выше технологий работал и базово знаком с <mark>Golang</mark>, <mark>C++</mark>, <mark>JavaScript</mark>, <mark>React</mark>, <mark>Figma</mark>, <mark>LaTex</mark>.
