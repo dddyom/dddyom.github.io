@@ -41,75 +41,74 @@ content:
         title: Data processing
 
 
-      - title: SKILLS
-        layout: list
-        content:
-        additional_links:
-          - icon: fab fa-github
-            title: github
-            url: github.com/dddyom/TargetDetection
-        description: |
+  - layout: list
+    title: SKILLS
+    additional_links:
+      - icon: fab fa-github
+        title: github
+        url: github.com/dddyom/TargetDetection
+    description: |
           Поиск целей на буфере радиолокатора нейросетью
 
           # 2
-        layout: left
-        link: github.com/dddyom/TargetDetection
-        title: TargetDetection
+  - layout: left
+    link: github.com/dddyom/TargetDetection
+    title: TargetDetection
       - additional_links:
-          - icon: fab fa-github
-            title: github
-            url: github.com/dddyom/drf-notes
-        description: |
+        - icon: fab fa-github
+          title: github
+          url: github.com/dddyom/drf-notes
+    description: |
           CRUD API для приложения с заметками
 
           # 3
-        layout: left
-        link: github.com/dddyom/drf-notes
-        title: drf-notes
+  - layout: left
+    link: github.com/dddyom/drf-notes
+    title: drf-notes
       - additional_links:
           - icon: fab fa-github
             title: github
             url: github.com/dddyom/ipc_detector_app
-        description: >
-          IPC-модуль на сокетах с docker на сервере для поиска образов
-          радиосигнала нейросетью
+    description: >
+      IPC-модуль на сокетах с docker на сервере для поиска образов
+      радиосигнала нейросетью
 
 
           # 4
-        layout: left
-        link: github.com/dddyom/ipc_detector_app
-        title: IPC-Detector-app
-      - additional_links:
-          - icon: fab fa-github
-            title: github
-            url: github.com/dddyom/online_store
-        description: |
-          Веб-приложение для магазина
+        #layout: left
+        #link: github.com/dddyom/ipc_detector_app
+        #title: IPC-Detector-app
+      #- additional_links:
+          #- icon: fab fa-github
+            #title: github
+            #url: github.com/dddyom/online_store
+        #description: |
+          #Веб-приложение для магазина
 
-          # 5
-        layout: left
-        link: github.com/dddyom/ipc_detector_app
-        title: online-store
-      - additional_links:
-          - icon: fab fa-github
-            title: github
-            url: github.com/dddyom/parser
-        description: |
-          Парсер сайта о картинах, собирающий данные для обучения нейросети
+          ## 5
+        #layout: left
+        #link: github.com/dddyom/ipc_detector_app
+        #title: online-store
+      #- additional_links:
+          #- icon: fab fa-github
+            #title: github
+            #url: github.com/dddyom/parser
+        #description: |
+          #Парсер сайта о картинах, собирающий данные для обучения нейросети
 
-          # 6
-        layout: left
-        link: github.com/dddyom/parser
-        title: parser
-      - additional_links:
-          - icon: fab fa-github
-            title: github
-            url: github.com/dddyom/dataset_maker
-        description: |
-          Обработчик буферов радиолокатора для сбора данных, обучающих нейросеть
-        layout: left
-        link: github.com/dddyom/dataset_maker
-        title: Dataset-maker
+          ## 6
+        #layout: left
+        #link: github.com/dddyom/parser
+        #title: parser
+      #- additional_links:
+          #- icon: fab fa-github
+            #title: github
+            #url: github.com/dddyom/dataset_maker
+        #description: |
+          #Обработчик буферов радиолокатора для сбора данных, обучающих нейросеть
+        #layout: left
+        #link: github.com/dddyom/dataset_maker
+        #title: Dataset-maker
     layout: list
     title: Projects
   - content:
