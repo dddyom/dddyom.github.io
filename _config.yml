@@ -10,26 +10,24 @@ linkedin_username: dddyom
 additional_links:
   - title: telegram
     icon: fab fa-telegram
-    url: 'https://telegram.me/dddyom'
+    url: "https://telegram.me/dddyom"
 
 about_title: About
 about_content: |
 
-  Работал в разных областях разработки. Люблю находить аккуратные и чистые решения.
-  В работе использую Linux и Open source.
-  Нравится процесс проектирования системы и нахождение возможных улучшений в её архитектуре.
+  Uot tak uot
 
 content:
   - title: SKILLS
     layout: list
     content:
-
       - layout: left
         title: Web-development
         description: |
           - Python, OOP, REST API
-          - Django, Django Rest Framework
-          - PostgreSQL, MySQL
+          - JS, JQuery, Semantic UI, DevExpress
+          - Django, Django Rest Framework, Flask
+          - PostgreSQL, MySQL, Ms SQL
           - HTML, CSS, Markdown
           - Selenium, BeautifulSoup
           - requests, logging, loguru
@@ -56,7 +54,6 @@ content:
   - title: Projects
     layout: list
     content:
-
       - layout: left
         title: TargetDetection
         link: github.com/dddyom/TargetDetection
@@ -66,7 +63,6 @@ content:
             url: github.com/dddyom/TargetDetection
         description: |
           Поиск целей на буфере радиолокатора нейросетью
-
 
       - layout: left
         title: drf-notes
@@ -118,8 +114,6 @@ content:
         description: |
           Обработчик буферов радиолокатора для сбора данных, обучающих нейросеть
 
-
-
   - title: Experience
     layout: list
     content:
@@ -134,7 +128,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 'Moscow Polytech, Moscow, Russia'
+        title: "Moscow Polytech, Moscow, Russia"
         caption: 2018 - 2022
         sub_title: Автоматизированные системы обработки информации и управления
         description: |
@@ -148,7 +142,6 @@ content:
       - Играю на <mark>гитаре</mark> и в <mark>шахматы</mark>.
       - Добрый, спокойный и <mark>ответственный</mark>:).
 footer_show_references: false
-
 plugins:
   - jekyll-seo-tag
 
